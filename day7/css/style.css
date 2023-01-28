@@ -1,0 +1,23 @@
+.box1{
+    width: 50%;
+    min-height: 100px;
+    background: red;
+    float: left;
+    margin: 100px;
+    padding: 100px; 
+}
+/* .box2{
+    width: 500px;
+    height: 200px;
+    background: green;
+    float: left;
+}
+.box3{
+    width: 300px;
+    height: 600px;
+    background: blue;
+    float: left;
+} */
+.test{
+    height: 100%;
+}

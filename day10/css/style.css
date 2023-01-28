@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width:90;
+    margin: auto;
+}
+nav{
+    background-color: #053fb4;
+    width: 100%;
+    color: #fff;
+}
+
+nav ul{
+    list-style: none;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+nav ul li{
+    min-width: 100px;
+    line-height: 50px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    text-align: center;
+}
+
+nav ul li ul{
+    background: red;
+    display: flex;
+    flex-direction: column;
+    display: none;
+    position: absolute;
+}
+
+nav ul li :hover{
+    background: #e3b704;
+}
+
+nav ul li:hover ul{
+    display: block;
+}

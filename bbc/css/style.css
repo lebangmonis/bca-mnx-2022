@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+/* header section */
+header{
+    width: 100%;
+    height: 65px;
+    background: black;
+}
+
+.header-main-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .left-header{
+    display: flex;
+    line-height: 65px;
+    font-size: 25px;
+    font-family: sans-serif;
+    width: 20%;
+    justify-content: space-between;
+}
+
+header .left-header .logo img{
+    height: 65px;
+}
+
+header .left-header .login a{
+    color: white;
+    text-decoration: none;
+
+}
+
+header .center-section {
+    width: 50%;
+
+}
+
+header .center-section ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+
+}
+
+header .center-section ul li{
+    min-width: 100px;
+    line-height: 65px;
+    text-align: center;
+}
+
+header .center-section ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+header .search-section{
+    line-height: 65px;
+
+}
+
+header .search-section .form-control{
+    width: 300px;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    padding-left: 10px;
+    float: left;
+    margin-top: 17px;
+}
+
+header .search-section .btn-search{
+    height: 32px;
+    width: 50px;
+    border-radius: 3px;
+    border: none;
+    background: white;
+    color: black;
+    font-weight: bold;
+    float: left;
+    margin-top: 17px;
+}
+
+
+/* header section end */
+
